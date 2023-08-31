@@ -12,13 +12,13 @@ export const TopicHeader = () => {
             {item.id === 7 ? (
               <div className={style.signature}>
                 <img src={iconCrown} alt="icon crown simple" />
-                <a>
-                  <span>{item.topic}</span>
-                </a>
+                <span>
+                  <p>{item.topic}</p>
+                </span>
               </div>
             ) : (
               <>
-                <a>{item.topic}</a>
+                <p>{item.topic}</p>
               </>
             )}
           </li>

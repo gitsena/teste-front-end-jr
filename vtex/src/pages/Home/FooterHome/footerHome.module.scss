@@ -27,14 +27,17 @@
 
   .colContacs {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    line-height: 32px;
+    grid-template-rows: 2fr 1fr;
+    line-height: 21px;
 
     .iconsContact {
       display: grid;
       grid-template-columns: repeat(3, 2fr);
       align-items: center;
 
+      a{
+        cursor: pointer;
+      }
 
       img {
         width: 21px;
@@ -53,6 +56,10 @@
     row-gap: 5px;
     display: flex;
     flex-direction: column;
+  
+    img{
+      cursor: pointer;
+    }
   }
 
 

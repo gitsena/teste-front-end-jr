@@ -10,16 +10,22 @@ export default function FooterHome() {
     <div className={style.footerHome}>
       <div className={style.colContacs}>
         <div>
-          <h4>Sobre nós</h4>
+          <h4>SOBRE NÓS</h4>
           <p>
             Conheça <br /> COMO COMPRAR <br />
             Indicação e Desconto
           </p>
         </div>
         <div className={style.iconsContact}>
-          <img src={iconFacebook} alt="facebook" />
-          <img src={iconInstagram} alt="instagram" />
-          <img src={iconYoutube} alt="youtube" />
+          <a href="https://pt-br.facebook.com/">
+            <img src={iconFacebook} alt="facebook" />
+          </a>
+          <a href="https://www.instagram.com/">
+            <img src={iconInstagram} alt="instagram" />
+          </a>
+          <a href="https://www.youtube.com/">
+            <img src={iconYoutube} alt="youtube" />
+          </a>
         </div>
       </div>
 

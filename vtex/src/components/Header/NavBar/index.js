@@ -17,9 +17,7 @@ export const NavBarHeader = () => {
         {MenuItems.map((item) => {
           return (
             <span className={style.containerMenu} key={item.id}>
-              <a>
-                <img className={style.iconMenu} src={item.src} alt={item.alt} />
-              </a>
+              <img className={style.iconMenu} src={item.src} alt={item.alt} />
             </span>
           );
         })}
